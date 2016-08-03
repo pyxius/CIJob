@@ -1,8 +1,7 @@
 
-
 job('My Tools Build') {
     scm{
-        github 'https://github.com/pyxius/myAkka.git'
+        github 'pyxius/my-tools'
     }
     triggers{
         scm 'H/5 * * * *'
