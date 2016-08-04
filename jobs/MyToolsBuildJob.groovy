@@ -7,6 +7,6 @@ job('my-tools-Build') {
         scm 'H/5 * * * *'
     }
     steps {
-        shell 'sbt clean compile package'
+        shell 'sbt clean compile test package publish'
     }
 }
